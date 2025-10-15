@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica HP 12C</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="hp-logo">
+            <span>HP</span> 12C
+        </div>
+
+        <input type="text" id="display" placeholder="0" readonly>
+
+        <div class="buttons">
+            <button class="btn" data-value="power">ON/OFF</button>
+            <button class="btn" data-value="C">C</button>
+            <button class="btn" data-value="√">√</button>
+            <button class="btn" data-value="^">^</button>
+            <button class="btn" data-value="log">log</button>
+            <button class="btn" data-value="sin">sin</button>
+            <button class="btn" data-value="cos">cos</button>
+            <button class="btn" data-value="tan">tan</button>
+
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn" data-value="/">/</button>
+            <button class="btn" data-value="arcsin">arcsin</button>
+            <button class="btn" data-value="arccos">arccos</button>
+            <button class="btn" data-value="arctan">arctan</button>
+            <button class="btn" data-value="ln">ln</button>
+
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn" data-value="*">*</button>
+            <button class="btn" data-value="exp">exp</button>
+            <button class="btn" data-value="∛">∛</button>
+            <button class="btn" data-value="!">!</button>
+            <button class="btn" data-value="%">%</button>
+
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn" data-value="-">-</button>
+            <button class="btn" data-value="π">π</button>
+            <button class="btn" data-value="e">e</button>
+            <button class="btn" data-value="sinh">sinh</button>
+            <button class="btn" data-value="cosh">cosh</button>
+
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn" data-value="=">=</button>
+            <button class="btn" data-value="+">+</button>
+            <button class="btn" data-value="tanh">tanh</button>
+            <button class="btn" data-value="deg2rad">deg2rad</button>
+            <button class="btn" data-value="rad2deg">rad2deg</button>
+            <button class="btn" data-value="mod">mod</button>
+
+            <button class="btn" data-value="10^x">10^x</button>
+            <button class="btn" data-value="abs">abs</button>
+            <button class="btn" data-value="rand">rand</button>
+            <button class="btn" data-value="ceil">ceil</button>
+            <button class="btn" data-value="floor">floor</button>
+            <button class="btn" data-value="round">round</button>
+            <button class="btn" data-value="(">(</button>
+            <button class="btn" data-value=")">)</button>
+
+            <button class="btn" data-value="help">Help</button>
+        </div>
+    </div>
+
+    <div class="help-window" id="helpWindow">
+        <h2>Como Usar a Calculadora</h2>
+        <ul>
+            <li><strong>ON/OFF</strong>: Liga/desliga a calculadora.</li>
+            <li><strong>C</strong>: Limpa o display.</li>
+            <li><strong>√</strong>: Calcula a raiz quadrada.</li>
+            <li><strong>^</strong>: Eleva um número à potência de outro.</li>
+            <li><strong>log</strong>: Calcula o logaritmo na base 10.</li>
+            <li><strong>sin/cos/tan</strong>: Funções trigonométricas básicas.</li>
+            <li><strong>arcsin/arccos/arctan</strong>: Funções trigonométricas inversas.</li>
+            <li><strong>ln</strong>: Logaritmo natural.</li>
+            <li><strong>exp</strong>: Exponencial.</li>
+            <li><strong>∛</strong>: Raiz cúbica.</li>
+            <li><strong>!</strong>: Fatorial.</li>
+            <li><strong>%</strong>: Porcentagem.</li>
+            <li><strong>π</strong>: Insere o valor de pi.</li>
+            <li><strong>e</strong>: Insere o valor de Euler.</li>
+            <li><strong>sinh/cosh/tanh</strong>: Funções hiperbólicas.</li>
+            <li><strong>deg2rad/rad2deg</strong>: Converte entre graus e radianos.</li>
+            <li><strong>mod</strong>: Resto da divisão.</li>
+            <li><strong>10^x</strong>: Potência de 10.</li>
+            <li><strong>abs</strong>: Valor absoluto.</li>
+            <li><strong>rand</strong>: Número aleatório entre 0 e 1.</li>
+            <li><strong>ceil/floor/round</strong>: Arredondamentos.</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
